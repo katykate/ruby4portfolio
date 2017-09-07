@@ -1,14 +1,10 @@
-// Place all the styles related to the products controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
 footer {
   position:fixed;
   bottom:0px;
   background-color:orange;
 }
-.navbar-light .navbar-toggler {
-  background-color:orange;
-}
+
 .navbar-collapse > ul > li > a {
   text-decoration: none;
   text-transform: uppercase;
@@ -43,6 +39,10 @@ p {
   font-size: 1em;
 }
 
-.card {
-  border: 1px solid #ffc107;
+ul {
+  list-style-type: none;
+}
+
+#image {
+  height: 320px;
 }
