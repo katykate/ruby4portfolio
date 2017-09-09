@@ -1,17 +1,40 @@
+.navbar-nav {
+  float: none!important;
+  margin-left: 0px;
+  padding: 5px;
+}
 
-footer {
+.navbar-nav >li {
+  float: none;
+  padding-top: 5px;
+}
+
+.navbar-nav>li>a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.navbar-nav,
+#searchform {
+  margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+  #searchform2 {
+    margin-top: 5px;
+  }
+}
+
+navbar-toggleable-md .collapse .show {
+  display: block! important;
+}
+
+#sitefooter {
   position:fixed;
   bottom:0px;
   background-color:orange;
-}
-
-.navbar-collapse > ul > li > a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #020304;
-  display: block;
-  padding: 10px;
-  margin-left:-5px;
 }
 
 h1{
@@ -43,6 +66,9 @@ ul {
   list-style-type: none;
 }
 
-#image {
-  height: 320px;
+.card {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+     
+

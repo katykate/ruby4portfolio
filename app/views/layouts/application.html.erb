@@ -19,11 +19,12 @@
 
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="btn btn-warning btn-lg" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="glyphicon">&#xe236;</span>
       </button>
      
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-toggleable-md collapse" id="navbarSupportedContent">
+
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <%= link_to "Home", root_path %>
@@ -35,11 +36,14 @@
             <%= link_to "Contact", static_pages_contact_path %>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+
+        <form id="searchform" class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button  class="btn btn-outline-success my-2 my-sm-0" id="searchform2" type="submit">Search</button>
         </form>
+
       </div>
+
     </nav>  
 
   
@@ -48,7 +52,7 @@
    
       
     <footer class="container-fluid">
-      <div class="navbar navbar-default navbar-fixed-bottom"> 
+      <div class="navbar navbar-default navbar-fixed-bottom" id="sitefooter"> 
          <p class="navbar-text">&copy; 2017 Bike Berlin</p>
       </div>
     </footer>
