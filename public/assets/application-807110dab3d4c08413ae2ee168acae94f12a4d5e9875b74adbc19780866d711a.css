@@ -1,0 +1,101 @@
+/* line 1, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+.navbar-nav {
+  float: none !important;
+  margin-left: 0px;
+  padding: 5px;
+}
+
+/* line 7, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+.navbar-nav > li {
+  float: none;
+  padding-top: 5px;
+}
+
+/* line 12, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+.navbar-nav > li > a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+/* line 19, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+.navbar-nav,
+#searchform {
+  margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+  /* line 25, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+  #searchform2 {
+    margin-top: 5px;
+  }
+}
+/* line 30, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+navbar-toggleable-md .collapse .show {
+  display: block !important;
+}
+
+/* line 34, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+#sitefooter {
+  position: fixed;
+  bottom: 0px;
+  background-color: orange;
+}
+
+/* line 40, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+h1 {
+  color: grey;
+  font-size: 3em;
+}
+
+/* line 45, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+h1,
+h2 {
+  text-align: center;
+}
+
+/* line 50, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+h3 {
+  color: rgba(57, 156, 204, 0.8);
+}
+
+/* line 54, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+h1,
+h2,
+h3 {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/* line 61, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 65, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 69, /Users/katykate/Documents/ruby4portfolio/ruby4portfolio/app/assets/stylesheets/scaffolds.scss */
+.card {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
