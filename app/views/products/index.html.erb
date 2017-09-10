@@ -9,7 +9,7 @@
         <div class="card card-outline-warning mb-3 text-center">
           <div class="card-block">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item" id="image"><%= image_tag(product.image_url, class: "img-responsive") %><li>
+            <li class="list-group-item" id="image" ><%= image_tag(product.image_url, class: "img-responsive") rescue nil  %><li>
             <li class="list-group-item"><%= product.name %></li>
             <li class="list-group-item"><%= product.description %></li>
           </ul>
