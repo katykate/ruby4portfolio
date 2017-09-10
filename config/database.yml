@@ -10,9 +10,8 @@ default: &default
   timeout: 5000
 
 development:
-    adapter: postgresql
-    database: [YOUR_DATABASE_NAME]
-    host: localhost
+  <<: *default
+  database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -24,3 +23,15 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
